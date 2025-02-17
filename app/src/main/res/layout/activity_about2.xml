@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".aboutActivity2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/lefty"
+                android:layout_width="43dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/leftarrow" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="About Stellar "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Welcome to Stellar, where the future of finance meets innovation!"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Our Mission "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="At Stellar, our mission is to democratize finance by providing a seamless, secure, and user-friendly cryptocurrency experience. We believe in the transformative power of digital currencies to create a more inclusive financial system for everyone, everywhere."
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Who We Are "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Stellar is a team of passionate experts in technology, finance, and blockchain, united by a vision to revolutionize the world of cryptocurrency. With a commitment to innovation and excellence, we strive to deliver the most reliable and cutting-edge solutions to our users.
+
+"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="What We Offer "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Seamless transactions "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Stellar enables you to buy, sell, and manage your digital assets with ease. Our platform is designed for both beginners and seasoned traders, ensuring a smooth experience for all.
+
+"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Advanced Security "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Security is at the heart of everything we do. From two-factor authentication to encrypted transactions and cold storage, we employ the highest standards to protect your assets."
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="User Centric Design "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Our app is built with you in mind. Intuitive navigation, real-time updates, and customizable features make managing your cryptocurrency a breeze.
+
+"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="What We Offer "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Why Choose Stellar? "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="⚪Innovation: We are constantly evolving and incorporating the latest technologies to stay ahead in the fast-paced world of digital finance."
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="⚪Trust: With robust security measures and a transparent approach, we aim to build and maintain your trust."
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="⚪Community: Stellar is more than an app; it’s a community of like-minded individuals who believe in the power of cryptocurrency to change the world."
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Join Us "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Step into the future of finance with Stellar. Download our app today and take control of your financial destiny."
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Together We are Stellar"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins"
+                android:textSize="12sp"
+                android:layout_marginTop="36dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="*T and C apply"
+                android:textColor="#61FFFFFF"
+                android:layout_gravity="center"
+
+                android:fontFamily="@font/poppins"
+                android:textSize="8sp"
+                android:layout_marginTop="76dp"
+
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

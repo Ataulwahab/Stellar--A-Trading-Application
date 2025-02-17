@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".developer">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/lefty"
+                android:layout_width="43dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/leftarrow" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="About the Developer "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Meet the Creator "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginTop="25dp"
+               android:layout_gravity="center"
+                />
+
+            <ImageView
+
+                android:layout_width="252dp"
+                android:layout_height="277dp"
+                android:layout_gravity="center"
+
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/shaan" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="The Hand behind the Code"
+                android:textColor="@color/white"
+                android:fontFamily="@font/aleo_semibold"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="⚪ Name : Ataul Wahab "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="16dp"
+
+                />
+            <View
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                 android:layout_marginStart="43dp"
+                android:background="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="⚪ Currently Studying :  "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="16dp"
+
+                />
+            <View
+                android:layout_width="180dp"
+                android:layout_height="2dp"
+                android:layout_marginStart="49dp"
+                android:background="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Bachelor in Technology in Information Technology (2nd year) "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="49dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="⚪ University/College :  "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="16dp"
+
+                />
+            <View
+                android:layout_width="180dp"
+                android:layout_height="2dp"
+                android:layout_marginStart="49dp"
+                android:background="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="VSSUT , Burla"
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="49dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="⚪ Skills:  "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="16dp"
+
+                />
+            <View
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                android:layout_marginStart="49dp"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Proficient in Java, C, C++ , Kotlin."
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="39dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Understanding Data Structures and Algorithms"
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="39dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Application Development in Java and Kotlin"
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="39dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Proficient in Code Editing"
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="39dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Collaborative Problem Solving"
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="39dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Project Management"
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="39dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Video Editing"
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="39dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="⚪ CGPA :  8.7"
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="16dp"
+
+                />
+            <View
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                android:layout_marginStart="49dp"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="⚪ Educational Background :  "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="16dp"
+
+                />
+            <View
+                android:layout_width="230dp"
+                android:layout_height="2dp"
+                android:layout_marginStart="49dp"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Matriculation from Seventh Day Adventist Higher Secondary School "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="49dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Intermediate from Cohen International School School "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="49dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="⚪ Achievements :  "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="16dp"
+
+                />
+            <View
+                android:layout_width="130dp"
+                android:layout_height="2dp"
+                android:layout_marginStart="49dp"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Gold Medal in SOF ISKO (International Sports Knowledge Olympiad) in School level , Silver Medal in SOF NSO (National Science Olympiad) in School Level in 2014."
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="39dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Gold Medal in SOF IGKO (International General Knowledge Olympiad) in School level ,Bronze Medal in SOF IMO (International Mathematics Olympiad)in School Level  in 2015. "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="14dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Gold Medal in SOF IGKO (International General Knowledge Olympiad) in School level and Silver Medal in District Level with  State Rank 6 ,Silver Medal in SOF NSO (National Science Olympiad) in School Level  in 2016. "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="14dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Gold Medal in SOF IGKO (International General Knowledge Olympiad) in School level  in 2017. "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="14dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Gold Medal in SilverZone Science Olympiad and Silver Medal in SilverZone Mathematics Olympiad in School level  in 2017. "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="14dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Gold Medal in SOF IGKO(International General Knowledge Olympiad) in School level in 2018. "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="14dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Silver Medal in SilverZone Science Olympiad in School level  in 2018. "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="14dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Secured 95.6 % in ICSE Boards 2021. "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="14dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Secured 9th Position in 13th National Numismatics Exhibition organised by Numismatics Society of India in 2022. "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="14dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="⚪ Hobbies  "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="16dp"
+
+                />
+            <View
+                android:layout_width="70dp"
+                android:layout_height="2dp"
+                android:layout_marginStart="49dp"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Cricket, Football, Movies , Travelling , Numismatics , Coding , Valorant "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="8dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="⚪ Previous Projects in App Development  "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="16dp"
+
+                />
+            <View
+                android:layout_width="358dp"
+                android:layout_height="2dp"
+                android:layout_marginStart="49dp"
+                android:background="@color/white"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="-Log-In form . "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="8dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="-Cook Bookie- An user friendly Recipe App . "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="4dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="⚪ Contact Developer "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="16dp"
+
+                />
+            <View
+                android:layout_width="170dp"
+                android:layout_height="2dp"
+                android:layout_marginStart="49dp"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="-E-Mail - wahab.ataul2005@gmail.com . "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="4dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="-Phone -7978446238 "
+                android:fontFamily="@font/aleo_semibold"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="4dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

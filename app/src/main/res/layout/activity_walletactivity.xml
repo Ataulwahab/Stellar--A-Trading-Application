@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".walletactivity"
+    android:background="@color/purple">
+  <include layout="@layout/toolbar"/>
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+  <LinearLayout
+      android:id="@+id/yaan"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="1dp"
+      android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="90dp"
+      app:cardCornerRadius="10dp"
+      android:layout_marginTop="60dp">
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/ethereum"
+          android:layout_marginStart="06dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="380dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Ethereum (ETH) Price Fights to Hold $2,500 as Bearish Sentiment Dominates">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/tesla"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Tesla has best day in over a decade, leading Nasdaq and S and P 500 higher">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/bitcoin"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="25dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Bitcoin holds above $67,300; Altcoins trade mixed">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/ethereum"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="15dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="NEIRO on Ethereum saw a remarkable increase of over 100% in the past week, making it the biggest gainer among the top 100 cryptocurrencies1
+.">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/ripple"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Ripple contests prior ruling’s Howey test application on XRP institutional sales in appeal
+.">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/microsoft"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="19dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Microsoft places 'assessment in investing in bitcoin' as a voting item for December shareholder meeting">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/europe"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="19dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Experts Challenge ECB’s Claims On Bitcoin And Wealth Inequality">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/canada"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="19dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Newly-Qualified Crypto Custodian Balance Aims to Bring ETF Assets Held in the U.S. Back to Canada">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/bitcoin"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="19dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Bitcoin Is Going to $80K Regardless of Trump or Harris Win, Traders Say">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/uae"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="14dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="The UAE has recently made a significant update to its value-added tax (VAT) regulations, now exempting transactions related to digital assets, including cryptocurrencies.">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/usa"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Pennsylvania House Passes Crypto Protection Bill In Bipartisan Vote">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/bitcoin"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Billionaire Michael Saylor Urges Microsoft CEO: Bitcoin Could Drive Trillion-Dollar Growth">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/tether"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Tether CEO on Why USDT Will Continue to Dominate the Stablecoin Market">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/ethereum"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Ethereum Price Teeters on 15% Drop as ICO Whale Dumps Another $7.6M">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/xrp"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="XRP Price Set to Explode? Ripple CEO Admits Shocking Regulatory Mistakes">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/ai"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="AI-Created ‘Goatseus Maximus’ Coin Secures $500 Million ">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/france"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Rep. French Hill Calls for SEC Leadership Change in 2025">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/paypal"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="PayPal has entered the cryptocurrency market, will buy bitcoin unveiled its dollar-pegged CBDC.">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/india"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="India's merchandise exports hit $38.13 billion in May, up by 9.1% from a year earlier">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/aus"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Australia's trade with China hit A$219 billion in 2023, up from pre-pandemic levels of A$168 billion">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/sing"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Singapore offers refiners rebates of up to 76% on its planned carbon tax for 2024 ">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/asia"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Asian Development Bank raises growth forecast for region, but warns of risks from trade sanctions">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/mexico"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="A violent start to the term of Mexico’s new president raises questions about strategy">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/un"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="UN are maneuvering fraught but fundamental ties during Middle East wars">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/georgia"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Georgia’s crucial vote took place amid widespread intimidation ">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/russia"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Russia’s central bank raises interest rate to 21% to fight inflation boosted by military spending ">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/usa"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="US airline temporarily suspends flights to Haiti’s capital after UN helicopter hit by gunfire ">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/ccola"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Coke’s quarterly revenue and volumes fall but still beat expectations">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/google"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Google’s partnership with AI startup Anthropic faces a UK competition investigation">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/israel"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Israeli strikes kill at least 200 in Gaza as UN halts aid deliveries after more trucks stolen">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/georgia"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Protests in Georgia spread as PM defies US condemnation">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/usa"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Trump threatens 100% tariff on BRICS countries if they pursue creating new currency">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/russia"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Putin approves record defense spending – a third of Russia’s budget">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/aus"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Australian police arrest 13 people and seize a record 2.3 tons of cocaine from a fishing boat">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/canada"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Trudeau says NATO offer for Ukraine-controlled territory could end ‘hot stage’ of war">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/mexico"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Activists say Mexican authorities have broken up 2 migrant caravans heading to the US">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/usa"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Biden pardons his son Hunter despite previous pledges not to">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/sing"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Singapore launches panda sculpture tour as the city hopes the bear craze boosts tourism">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/romaania"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="
+Romania’s leftists set to top polls in parliamentary election, but far-right populists see big gains">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/canada"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Canada’s ambassador says Trudeau told Trump the Canadian border can’t be compared to Mexico’s">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/russia"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Poland’s prime minister visits defensive fortifications on border with Russia">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/mexico"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Avocados, tequila and other iconic Mexican products are jeopardized by Trump’s tariff threats
+">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/uk"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="First popularly elected Black mayor in New England, Thirman Milner, has died at 91">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/usa"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="
+Big Ten fines Michigan and Ohio State $100,000 each for postgame melee">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/dutch"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Netherlands decision to extend election voting due to technical issues draws opposition complaints">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/uae"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text=" Negotiations on a treaty to end plastic have concluded in UAE without reaching an agreement.">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/usa"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="US approves $2 billion in arms sales to Taiwan including advanced missile defense system">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/usa"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Kamala Harris and Michelle Obama rally in Michigan, warns another Trump presidency">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/nasa"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="NASA astronaut remains in the hospital after returning from an extended stay in space">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/uk"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="UK inflation falls to lowest level in over 3 years, cementing expectations for another rate cut">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/europe"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="European Central Bank, seeing no signs of recession, cuts interest rates again">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="3dp"
+        >
+      <ImageView
+          android:layout_width="38dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/ama"
+          android:layout_marginStart="6dp"
+          android:layout_marginTop="18dp">
+
+
+      </ImageView>
+      <TextView
+          android:layout_width="350dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="21dp"
+          android:layout_marginStart="50dp"
+          android:fontFamily="@font/abeezee"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:text="Amazon’s $4 billion partnership with AI startup Anthropic gets UK competition clearance">
+
+      </TextView>
+    </androidx.cardview.widget.CardView>
+
+
+
+  </LinearLayout>
+  </ScrollView>
+
+  </RelativeLayout>

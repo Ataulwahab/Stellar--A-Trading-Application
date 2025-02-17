@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".settactivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/lefty"
+            android:layout_width="43dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/leftarrow" />
+
+        <TextView
+            android:id="@+id/textView3780"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" FAQ's and Guide"
+            android:gravity="center"
+            android:fontFamily="@font/poppins"
+
+            android:layout_marginTop="19dp"
+            android:textColor="@color/white"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/white"
+            android:layout_marginStart="140dp"
+            android:layout_marginEnd="140dp"
+            />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ⚪  What is Cryptocurrency?"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="19dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" - Cryptocurrencies are digital or virtual currencies that use cryptography for security. They operate on decentralized networks based on blockchain technology."
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ⚪  Blockchain Technology"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" - A blockchain is a distributed ledger that records all transactions across a network of computers. This ensures transparency and security."
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView93"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ⚪  Types of Cryptocurrencies"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" - The most well-known cryptocurrency is Bitcoin, but there are thousands of others like Ethereum, Litecoin, and Ripple, each with unique features and uses."
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView943"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ⚪  Wallets"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView344"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" - To store and manage your cryptocurrencies, you need a digital wallet. Wallets can be hardware-based (physical devices) or software-based (apps and online services).
+"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView943"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ⚪  Research"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView3454"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" - Before investing, research different cryptocurrencies. Understand their use cases, the technology behind them, and their market potential.
+."
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView923"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ⚪  Choosing a reliable exchange"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView354544"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" -Select a reputable cryptocurrency exchange where you can buy, sell, and trade cryptocurrencies. Examples include Binance, Coinbase, and Kraken."
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView954453"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ⚪  Create an Account"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView354544444"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" - Sign up on your chosen exchange and complete the necessary verification processes. This often includes providing identification documents."
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView9163"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ⚪  Deposit Funds"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView3554"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" - Deposit fiat currency (like USD, EUR, INR) into your exchange account. Some exchanges also allow you to deposit other cryptocurrencies."
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView91463"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ⚪  Buy Cryptocurrencies"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView3445554"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" - Use your deposited funds to purchase cryptocurrencies. You can buy whole coins or fractions of a coin, depending on your budget."
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView914463"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ⚪  Secure your Investments"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView359954"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" - Transfer your purchased cryptocurrencies to your wallet for safekeeping. Enable two-factor authentication (2FA) and regularly update your security measures."
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView34451454545554"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" #Additional Tips"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView914545454463"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Stay Informed: Keep up with market trends and news.
+"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView359545454954"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" - Diversify: Don’t put all your money into one cryptocurrency.
+"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView35955455545454954"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Be Cautious: Only invest what you can afford to lose due to the high volatility of the market."
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/textView3595545555545454954"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Investing in crypto can involve high market risks. Invest wisely."
+            android:fontFamily="@font/poppins"
+            android:textSize="10dp"
+            android:gravity="center"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#32FFFFFF"/>
+
+    </LinearLayout>
+</ScrollView>
